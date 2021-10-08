@@ -10,7 +10,7 @@ At least Python's type-safe rating is strong. JS's type-safe rating is "weak". L
 
 For noobs, that's great! For experienced developers with a background in type systems and object-oriented programming (OOP), not so much. They'll likely spend some time scratching their head when working in JS. Actually, an argument can definitely be made that typing systems should be introduced to juniors as early as possible. I definitely agree after learning TypeScript (TS).
 
-In an implicitly typed language, the type of a variable is implied in its definition and other mutations, yet the variable is never restricted to its original implied type. JavaScript fixed a little bit of this with the `const` keyword in ES6. Not too much and not nearly as much as say, Java, however. In JavaScript, any properties on an object can still be changed to whatever type you like if you are not using TS to strictly type. This gets very dangerous in large code bases. At the very best, it can require a ton of comments and developer focus to make sure something is never changed or coerced to a type that will not work with the operations working on that variable. The worst case scenario, of course, is production coming down.
+In an implicitly typed language, the type of a variable is implied by its definition and other mutations, yet the variable is never restricted to its original implied type. JavaScript fixed a little bit of this with the `const` keyword in ES6. Not too much and not nearly as much as say, Java, however. In JavaScript, any properties on an object can still be changed to whatever type you like if you are not using TS to strictly type. This gets very dangerous in large code bases. At the very best, it can require a ton of comments and developer focus to make sure something is never changed or coerced to a type that will not work with the operations working on that variable. The worst case scenario, of course, is production coming down.
 
 ## The decision to learn TS
 
@@ -31,3 +31,5 @@ Once I began the challenge and started researching how to implement my solution,
 I did really well with that challenge. I attribute a lot of my success in that situation to the fact that I decided to start using TS in all of my JS endeavors about two months before. If you're a boot camp graduate or a junior JavaScript developer looking to learn something that will vastly broaden your coding horizons, learn TypeScript.
 
 As a bonus, you will finally understand all of the JavaScript hate when you see just how much chaos JavaScript was allowing you to get away with before TypeScript.
+
+<small>If anything in this article is inaccurate or misleading, please do not hesitate to reach out so I can change it! I am still a junior myself and I want to learn as much as possible.</small>
